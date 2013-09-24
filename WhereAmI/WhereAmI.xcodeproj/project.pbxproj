@@ -15,6 +15,7 @@
 		002CC25517F13CA800896F25 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 002CC25417F13CA800896F25 /* BIDAppDelegate.m */; };
 		002CC25817F13CA800896F25 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002CC25717F13CA800896F25 /* BIDViewController.m */; };
 		002CC25B17F13CA900896F25 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002CC25917F13CA900896F25 /* BIDViewController.xib */; };
+		002CC26217F144AB00896F25 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002CC26117F144AB00896F25 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		002CC25617F13CA800896F25 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		002CC25717F13CA800896F25 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		002CC25A17F13CA900896F25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		002CC26117F144AB00896F25 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002CC26217F144AB00896F25 /* CoreLocation.framework in Frameworks */,
 				002CC24517F13CA800896F25 /* UIKit.framework in Frameworks */,
 				002CC24717F13CA800896F25 /* Foundation.framework in Frameworks */,
 				002CC24917F13CA800896F25 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +70,7 @@
 		002CC24317F13CA800896F25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				002CC26117F144AB00896F25 /* CoreLocation.framework */,
 				002CC24417F13CA800896F25 /* UIKit.framework */,
 				002CC24617F13CA800896F25 /* Foundation.framework */,
 				002CC24817F13CA800896F25 /* CoreGraphics.framework */,
